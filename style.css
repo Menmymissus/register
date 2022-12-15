@@ -1,0 +1,166 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(Roboto-Regular.ttf);
+}
+
+
+
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+}
+
+.hero {
+    height: 100%;
+    width: 100%;
+    background-color: #FFF7F7;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+
+}
+
+.formbox {
+    width: 380px;
+    height: 480px;
+    position: relative;
+    margin: 6% auto;
+    padding: 5px;
+    background: transparent;
+    border-radius: 30px;
+    overflow: hidden;
+
+}
+
+.buttonbox {
+    width: 220px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px #ff61241f;
+    border-radius: 30px;
+
+
+}
+
+.togglebtn {
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+
+}
+
+
+.inputgroup {
+    top: 180px;
+    width: 280px;
+    transition: .5s;
+    position: absolute;
+}
+
+.inoutfield {
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    outline: none;
+    background: transparent;
+    border-radius: 15px;
+    font-family: 'Helvetica', FontAwesome, sans-serif;
+
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 10px 30px;
+    cursor: pointer;
+    margin: auto;
+    background: transparent;
+
+    outline: none;
+    border-radius: 30px;
+    display: block;
+    position: relative;
+    top: 10px;
+}
+
+.check-box {
+    margin: 30px 10px 30px 0;
+}
+
+span {
+    color: rgb(16, 13, 13);
+    font-size: 12px;
+    bottom: 68px;
+    position: absolute;
+}
+
+#login {
+    left: 50px;
+}
+
+#Register {
+    left: 450px;
+}
+
+::placeholder {
+    color: black;
+    font-weight: bold;
+
+}
+
+input:focus::placeholder {
+    color: transparent;
+}
+
+.pw {
+    position: relative;
+    top: 2px;
+    font-style: italic;
+    padding-left: 180px;
+}
+.pw a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.register {
+    position: relative;
+
+    top: 10px;
+    padding-left: 90px;
+}
+
+.register a {
+    text-decoration: none;
+    font-style: italic;
+}
+
+.up {
+
+    width: 393px;
+    height: 35px;
+    left: 40px;
+    top: 120px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+
+    color: #000000;
+
+    opacity: 0.5;
+}
+
+@media only screen and (max-width: 453px) {
+
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+}
